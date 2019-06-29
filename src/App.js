@@ -9,10 +9,6 @@ import Column from './Column';
 import Row from './Row';
 import Container from './Container';
 import './App.css';
-// function App() {
-//   return <div>Hi</div>;
-// }
-// export default App;
 
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -49,7 +45,7 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     } else if (newScore === 12) {
-      this.setState({ rightWrong: 'You ROCK!!!' });
+      this.setState({ rightWrong: 'You WON!!!' });
     }
     this.handleShuffle();
   };
@@ -58,7 +54,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: 'Nope!:-(',
+      rightWrong: 'Oopsies... Try Again!',
       clicked: []
     });
     this.handleShuffle();
@@ -73,14 +69,14 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="Giphy Clicky Game"
+          title="President Clicky Game"
           rightWrong={this.state.rightWrong}
           score={this.state.currentScore}
           topScore={this.state.topScore}
         />
 
         <Title>
-          Click on an image to earn points, but do not click on any more than
+          Click on images to earn points, but do not click on an image more than
           once!!!
         </Title>
 
