@@ -1,8 +1,20 @@
 import React from 'react';
-import './Nav.css';
+import './nav.css';
 
-function Nav(props) {
-  return <div className="nav"> {props.children}</div>;
-}
+const Nav = props => (
+  <nav>
+    <ul>
+      <li className="brand">
+        <a href="/clicky-game/">{props.title}</a>
+      </li>
+
+      <li id="rw">{props.rightWrong}</li>
+
+      <li id="current">Current Score: {props.score}</li>
+
+      <li id="top">Top Score: {props.topScore}</li>
+    </ul>
+  </nav>
+);
 
 export default Nav;

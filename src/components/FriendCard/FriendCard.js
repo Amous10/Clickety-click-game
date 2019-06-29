@@ -1,5 +1,5 @@
 import React from 'react';
-import './FriendCard.css';
+import './friendcard.css';
 
 function FriendCard(props) {
   return (
