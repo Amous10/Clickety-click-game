@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "image": "https://live.staticflickr.com/8511/8470663773_c006416fac_b.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "http://www.gstatic.com/tv/thumb/persons/514222/514222_v9_bb.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Jfk2.jpg/1200px-Jfk2.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "http://www.gstatic.com/tv/thumb/persons/335/335_v9_bb.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "https://www.biography.com/.image/t_share/MTE5NDg0MDU1MDEwMjQ4MjA3/thomas-jefferson-9353715-1-402.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "http://www.gstatic.com/tv/thumb/persons/173969/173969_v9_ba.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "https://www.biography.com/.image/t_share/MTIwNjA4NjMzODg2NTc0MDky/abraham-lincoln-9382540-2-402.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Portrait_of_President_Reagan_1981.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "http://www.gstatic.com/tv/thumb/persons/897872/897872_v9_ba.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "https://thefederalist.com/wp-content/uploads/2019/01/AJack-998x632.jpg",
+        "clicked": false
+    }
+]
