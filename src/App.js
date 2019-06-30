@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import Body from './components/Body';
-import FriendCard from './components/FriendCard/FriendCard';
-import Nav from './components/Nav/Nav';
-import Title from './components/Title/Title';
-import Wrapper from './components/Wrapper/Wrapper';
+import FriendCard from './components/FriendCard';
+import Nav from './components/Nav';
+import Title from './components/Title';
+import Wrapper from './components/Wrapper';
 import friends from './friends.json';
 import Column from './Column';
 import Row from './Row';
