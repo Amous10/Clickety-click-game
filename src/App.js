@@ -85,7 +85,7 @@ class App extends Component {
             {this.state.friends.map(friend => (
               <Column size="md-3 sm-6">
                 <FriendCard
-                  key={friend.id}
+                  key={friend.name}
                   id={friend.id}
                   image={friend.image}
                   handleClick={this.handleClick}
