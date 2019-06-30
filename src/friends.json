@@ -1,61 +1,62 @@
-[{
-        "id": 1,
-        "image": "./assets/images/bush.png",
-        "clicked": false
-    },
-    {
-        "id": 2,
-        "image": "./assets/images/clinton.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 3,
-        "image": "../public/images/jefferson.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 4,
-        "image": "../../public/images/jfk.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 5,
-        "image": "./public/images/lincoln.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 6,
-        "image": "./public/images/nixon.png",
-        "clicked": false
-    },
-    {
-        "id": 7,
-        "image": "../public/images/obama.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 8,
-        "image": "../../../public/images/washington.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 9,
-        "image": "./public/images/reagan.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 10,
-        "image": "./public/images/roosevelt.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 11,
-        "image": "./public/images/truman.jpeg",
-        "clicked": false
-    },
-    {
-        "id": 12,
-        "image": "./public/images/trump.jpeg",
-        "clicked": false
-    }
+[
+  {
+    "id": 1,
+    "image": "./assets/images/bush.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/clinton.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/jefferson.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/jfk.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "./assets/images/lincoln.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "./assets/images/nixon.png",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image": "./assets/images/obama.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "./assets/images/washington.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "./assets/images/reagan.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "image": "./assets/images/roosevelt.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "image": "./assets/images/truman.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "image": "./assets/images/trump.jpeg",
+    "clicked": false
+  }
 ]
