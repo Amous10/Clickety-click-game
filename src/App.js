@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-// import Body from './components/Body';
-import FriendCard from './components/FriendCard';
+import PresCard from './components/PresCard';
 import Nav from './components/Nav';
 import Title from './components/Title';
 import Wrapper from './components/Wrapper';
-import friends from './friends.json';
+import presidents from './presidents.json';
 import Column from './Column';
 import Row from './Row';
 import Container from './Container';
 import './App.css';
 
-function shuffleFriends(array) {
+function shufflePresidents(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -20,13 +19,14 @@ function shuffleFriends(array) {
 
 class App extends Component {
   state = {
-    friends,
+    presidents,
     currentScore: 0,
     topScore: 0,
     rightWrong: '',
     clicked: []
   };
 
+  //checking for image click outside array of ids to increment point, otherwisd reset
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -61,8 +61,8 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledFriends = shuffleFriends(friends);
-    this.setState({ friends: shuffledFriends });
+    let shuffledPresidents = shufflePresidents(presidents);
+    this.setState({ presidents: shuffledPresidents });
   };
 
   render() {
@@ -82,12 +82,12 @@ class App extends Component {
 
         <Container>
           <Row>
-            {this.state.friends.map(friend => (
+            {this.state.presidents.map(pres => (
               <Column size="md-3 sm-6">
-                <FriendCard
-                  key={friend.name}
-                  id={friend.id}
-                  image={friend.image}
+                <PresCard
+                  key={pres.name}
+                  id={pres.id}
+                  image={pres.image}
                   handleClick={this.handleClick}
                   handleIncrement={this.handleIncrement}
                   handleReset={this.handleReset}
