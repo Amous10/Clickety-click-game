@@ -4,9 +4,6 @@ import Nav from './components/Nav';
 import Title from './components/Title';
 import Wrapper from './components/Wrapper';
 import presidents from './scenes.json';
-import Column from './Column';
-import Row from './Row';
-import Container from './Container';
 import './App.css';
 
 function shufflePresidents(array) {
@@ -82,23 +79,17 @@ class App extends Component {
           stay put!
         </Title>
 
-        <Container>
-          <Row>
-            {this.state.presidents.map(pres => (
-              <Column size="md-3 sm-6">
-                <SceneCard
-                  key={pres.name}
-                  id={pres.id}
-                  image={pres.image}
-                  handleClick={this.handleClick}
-                  handleIncrement={this.handleIncrement}
-                  handleReset={this.handleReset}
-                  handleShuffle={this.handleShuffle}
-                />
-              </Column>
-            ))}
-          </Row>
-        </Container>
+        {this.state.presidents.map(pres => (
+          <SceneCard
+            key={pres.name}
+            id={pres.id}
+            image={pres.image}
+            handleClick={this.handleClick}
+            handleIncrement={this.handleIncrement}
+            handleReset={this.handleReset}
+            handleShuffle={this.handleShuffle}
+          />
+        ))}
       </Wrapper>
     );
   }
