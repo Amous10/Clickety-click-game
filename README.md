@@ -1,9 +1,9 @@
-# Presidential Click Game
+# Scenery Click Game
 
-#### Test your memory with some our most memorable U.S. Presidents.
+#### Test your memory with some beautiful scenes.
 
-#### Click on each character once to win the game. But don't click on a character twice, or it's game over for you!
+#### Click on a scene to earn a point. Click on all scenes to win the game. But don't click on the same scene twice, or it's back to zero!
 
-#### Built with React. Check it out [here](https://wllm-chndlr.github.io/clicky-game/).
+#### Built with React. Check it out [here](https://warm-atoll-46914.herokuapp.com/).
 
 ![screenshot](public/screenshot.png)
