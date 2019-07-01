@@ -17,7 +17,7 @@ p {
 a {
   font-family: 'Garamond';
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #64839c;
   text-decoration: none;
 }
@@ -31,8 +31,16 @@ a:hover {
   color: red;
 }
 
-.title {
-  margin-bottom: 10px;
+nav li {
+  display: inline-block;
+  padding: 0px 0;
+  width: 25%;
+}
+
+ul {
+  /* padding-left: 0px; */
+  display: flex;
+  align-items: center;
 }
 @media only screen and (max-width: 750px) {
   #cur-sco,

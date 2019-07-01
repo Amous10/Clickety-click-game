@@ -3,12 +3,14 @@ import './nav.css';
 
 const Nav = props => (
   <nav>
-    <div className="brand">
-      <a href="/clicky-game/">{props.title}</a>
-    </div>
-    <p id="current">Current Score: {props.score}</p>{' '}
-    <p id="top">Top Score: {props.topScore}</p>
-    <p id="rw">{props.rightWrong}</p>
+    <ul>
+      <li className="brand">
+        <a href="/clicky-game/">{props.title}</a>
+      </li>
+      <li id="current">Current Score: {props.score}</li>{' '}
+      <li id="top">Top Score: {props.topScore}</li>
+      <li id="rw">{props.rightWrong}</li>
+    </ul>
   </nav>
 );
 
