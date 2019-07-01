@@ -71,7 +71,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title={`Game of Scenes Worth Clicking!`}
+          title={`Scene Click Game`}
           rightWrong={this.state.rightWrong}
           score={this.state.currentScore}
           topScore={this.state.topScore}
