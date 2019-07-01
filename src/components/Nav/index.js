@@ -6,12 +6,9 @@ const Nav = props => (
     <div className="brand">
       <a href="/clicky-game/">{props.title}</a>
     </div>
-
-    <p id="rw">{props.rightWrong}</p>
-
-    <p id="curent">Current Score: {props.score}</p>
-
+    <p id="current">Current Score: {props.score}</p>{' '}
     <p id="top">Top Score: {props.topScore}</p>
+    <p id="rw">{props.rightWrong}</p>
   </nav>
 );
 

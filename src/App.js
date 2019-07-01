@@ -70,8 +70,8 @@ class App extends Component {
         <Nav
           title={`Scene Click Game`}
           rightWrong={this.state.rightWrong}
-          score={this.state.currentScore}
           topScore={this.state.topScore}
+          score={this.state.currentScore}
         />
 
         <Title>
