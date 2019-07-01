@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import PresCard from './components/PresCard';
+import SceneCard from './components/SceneCard';
 import Nav from './components/Nav';
 import Title from './components/Title';
 import Wrapper from './components/Wrapper';
-import presidents from './presidents.json';
+import presidents from './scenes.json';
 import Column from './Column';
 import Row from './Row';
 import Container from './Container';
@@ -86,7 +86,7 @@ class App extends Component {
           <Row>
             {this.state.presidents.map(pres => (
               <Column size="md-3 sm-6">
-                <PresCard
+                <SceneCard
                   key={pres.name}
                   id={pres.id}
                   image={pres.image}
