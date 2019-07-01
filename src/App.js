@@ -71,15 +71,15 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav
-          title="President Clicky Game"
+          title={`Game of Scenes Worth Clicking!`}
           rightWrong={this.state.rightWrong}
           score={this.state.currentScore}
           topScore={this.state.topScore}
         />
 
         <Title>
-          Click on images to earn points, but do not click on an image more than
-          once!!!
+          Click on each image only once to earn points! Careful... they don't
+          stay put!
         </Title>
 
         <Container>

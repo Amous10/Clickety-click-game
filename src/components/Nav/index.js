@@ -3,17 +3,15 @@ import './nav.css';
 
 const Nav = props => (
   <nav>
-    <ul>
-      <li className="brand">
-        <a href="/clicky-game/">{props.title}</a>
-      </li>
+    <div className="brand">
+      <a href="/clicky-game/">{props.title}</a>
+    </div>
 
-      <li id="rw">{props.rightWrong}</li>
+    <p id="rw">{props.rightWrong}</p>
 
-      <li id="current">Current Score: {props.score}</li>
+    <p id="curent">Current Score: {props.score}</p>
 
-      <li id="top">Top Score: {props.topScore}</li>
-    </ul>
+    <p id="top">Top Score: {props.topScore}</p>
   </nav>
 );
 
